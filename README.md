@@ -1,5 +1,5 @@
 # pl_pharmcy
-a pharmacy managemnet app manage salls , purchases , customer account ,supplier acount 
+a pharmacy managmenet app manage salls , purchases , customer account ,supplier acount 
 and  it connect pharmaceutical suppliers to pharmacies .
 
 ### type of users 
