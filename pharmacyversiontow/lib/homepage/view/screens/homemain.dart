@@ -40,21 +40,7 @@ class HomeMain extends StatelessWidget {
           bottom: 0,
           left: 0,
           right: 0,
-          child: Column(
-            children: [
-              Text(
-                homeMainController.viewdate.toString().split(" ")[0],
-                style: TextStyle(
-                    fontSize: SizeConfig.defaultSize! * 3, color: Colors.white),
-              ),
-              Obx(()=> Text(
-                    "${homeMainController.houre} : ${homeMainController.minute} : ${homeMainController.scand} ",
-                    style: TextStyle(
-                        fontSize: SizeConfig.defaultSize! * 3, color: Colors.white),
-                  ),
-              ),
-              
-              Container(
+          child: Container(
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(SizeConfig.defaultSize!),
@@ -156,8 +142,7 @@ class HomeMain extends StatelessWidget {
                   ),
                 ),
               ),
-            ],
-          ),
+            
         ),
       ],
     );
